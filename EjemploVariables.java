@@ -12,7 +12,7 @@ public class EjemploVariables{
         int numero = 2;
         System.out.println(numero);
         //Los double son numeros en punto flotante.
-        double numeroDecimal = 2.5;
+        double numeroDecimal = 2.6;
         System.out.println(numeroDecimal);
         //Los String se usan para cadenas de texto. Se considera cadena a partir de 2 caracteres en adelante.
         String frase = "Soy una frase";
