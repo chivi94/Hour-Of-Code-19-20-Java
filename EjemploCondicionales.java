@@ -28,7 +28,7 @@ public class EjemploCondicionales {
 
         /**
          * Ahora vamos a ver el operador ternario. Es equivalente al if-else, mas
-         * elegante, aunque menos eficiente. El anterior if-else con el operador
+         * elegante, aunque menos legible. El anterior if-else con el operador
          * ternario seria algo asi...
          */
         String mensaje = numero > 0 ? mensajeBien : mensajeMal;
