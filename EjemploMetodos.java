@@ -27,7 +27,7 @@ public class EjemploMetodos{
     }
 
     /**
-     * Funcion que recive 2 enteros como argumentos y devuelve su suma.
+     * Funcion que recibe 2 enteros como argumentos y devuelve su suma.
      * @param a Primer entero
      * @param b Segundo entero
      * @return La suma de los 2 argumentos
