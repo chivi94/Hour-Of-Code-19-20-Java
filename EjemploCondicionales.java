@@ -28,22 +28,24 @@ public class EjemploCondicionales {
 
         /**
          * Ahora vamos a ver el operador ternario. Es equivalente al if-else, mas
-         * elegante, aunque menos legible. El anterior if-else con el operador
-         * ternario seria algo asi...
+         * elegante, aunque menos legible. El anterior if-else con el operador ternario
+         * seria algo asi...
          */
         String mensaje = numero > 0 ? mensajeBien : mensajeMal;
         System.out.println(mensaje);
 
         /**
-         * Por ultimo, vamos a ver el switch-case. Hay que tener en cuenta que la condicion logica va entre los parentesis del switch,
-         * y los case evaluan el resultado de estos, con lo que para hacer el equivalente del primer if-else, tendriamos que hacer algo
-         * parecido a esto...
+         * Por ultimo, vamos a ver el switch-case. Hay que tener en cuenta que la
+         * condicion logica va entre los parentesis del switch, y los case evaluan el
+         * resultado de estos, con lo que para hacer el equivalente del primer if-else,
+         * tendriamos que hacer algo parecido a esto...
          */
-        //Comprobamos el tipo de la entrada con un operador ternario, y checkeamos su valor con el switch-case.
+        // Comprobamos el tipo de la entrada con un operador ternario, y checkeamos su
+        // valor con el switch-case.
         int resultado = numero > 0 ? 0 : -1;
         /**
-         * ¿Recordais los metodos y las funciones? Probad a hacer lo mismo, pero con una funcion que evalue esto, y comprobad el resultado
-         * en el switch-case.
+         * ¿Recordais los metodos y las funciones? Probad a hacer lo mismo, pero con una
+         * funcion que evalue esto, y comprobad el resultado en el switch-case.
          */
         switch (resultado) {
         case 0:
